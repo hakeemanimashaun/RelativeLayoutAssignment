@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <View
+        android:id="@+id/firstBox"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/purple_200"/>
+    <View
+        android:id="@+id/secondBox"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:background="@color/ash"
+        android:layout_below="@+id/firstBox"/>
+    <View
+    android:id="@+id/thirdBox"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="100dp"
+    android:background="@color/purple_500"
+    android:layout_below="@+id/secondBox"/>
+
+    <View
+        android:id="@+id/fourthBox"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/thirdBox"
+        android:layout_marginTop="30dp"
+        android:background="@color/teal_700" />
+
+    <View
+        android:id="@+id/fifthBox"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="300dp"
+        android:background="@color/teal_200"
+        android:layout_below="@+id/fourthBox"/>
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>
